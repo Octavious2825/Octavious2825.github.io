@@ -1,0 +1,42 @@
+body {
+    background-color: rosybrown;
+}
+#p1{
+    color: aliceblue;
+}
+#p2{
+    color: palegreen;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(36, 35, 33); 
+}
+#p3{
+    color: lightblue;
+    font-family: cursive;
+    font-size: 16px;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+#pretty{
+    height: 100vh;
+    padding: 50vh 10%;
+}
+#s1{
+    font-weight: bold;
+    color: rgb(255, 43, 100);
+    font-size: 25px;
+}
+#s2{
+    font-style: italic;
+    letter-spacing: 2px;
+}
+#s3{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+}
+#s4{
+    text-decoration: underline;
+    font-style: italic;
+}
