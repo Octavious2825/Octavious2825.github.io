@@ -1,0 +1,7 @@
+div{
+    border: 10px dashed rgb(188, 246, 232);
+    margin: 25px 100px ;
+    padding: 20px;
+    background-color: indianred; 
+    border-radius: 25px 90px;
+}
