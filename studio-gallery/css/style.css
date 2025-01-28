@@ -1,0 +1,45 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#poster-1 {
+    border: 10px outset rgb(130, 46, 46);
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 12px #14141455;
+}
+#poster-1 div {
+    background-color: black;
+    padding: 5px;
+    box-shadow: inset -1px 1px 2px #14141455;
+}
+#poster-1 img {
+    width: 80px;
+    display: block;
+}
+
+#poster-2 {
+    border: 10px outset rgb(60, 60, 112);
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 12px #14141455;
+}
+#poster-2 div {
+    background-color: whitesmoke;
+    padding: 5px;
+    box-shadow: inset -1px 1px 2px #14141455;
+}
+#poster-2 img {
+    width: 75px;
+    display: block;
+} 
+.display-space {
+    margin: 20px;
+}
