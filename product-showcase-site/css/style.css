@@ -1,0 +1,19 @@
+
+img {
+    width: 90%;
+    height: 200px ;
+    object-fit:cover;
+}
+.single-column{
+    background-color: rgb(183, 220, 145);
+    width: 90%;
+    max-width: 1440px;
+    margin-left: 10px auto;
+}
+.light-container{
+    padding: 48px 0px;
+    background-color: rgb(241, 211, 172);
+}
+.dark-container{
+    background-color: rgb(40, 59, 48);
+}
