@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* Two Column Styles */
+/* While display flex is the only property you need, remember to use other prop
+to make it look well designed 
+*/
+#two-columns{
+    display: flex;
+}
+#sidebar{
+    background-color:rgb(177, 170, 170);
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid black;
+    h2{
+        border-bottom: 3px solid white;
+        padding-bottom: 5px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0px ;
+    }
+    ul a{
+        color: honeydew;
+        text-decoration: none;
+    }
+    ul li{
+        padding: 4px 8px;
+    }
+    
+}
+#main{
+    padding: 48px;
+    flex: 1;
+    
+}
