@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color:rgb(44, 53, 53);
+
+}
+img{
+    width: 400px;
+}
+#navbar-column {
+    background-color: rgb(255, 226, 95);
+    padding: 7px;
+    border: 2px solid black;
+}
+#navbar-column a{
+    color: black;
+    text-decoration:underline;
+}
+#two-columns {
+    display: grid;
+    grid-template-columns: 1fr 600px 350px 1fr;
+    grid-template-areas: ". content sidebar .";
+}
+#sidebar {
+    grid-area: sidebar;
+    padding: 18px;
+    margin: 30px;
+}
+#sidebar h2 {
+    background-color: crimson;
+    margin: 0px;
+    padding: 12px;
+    color:aliceblue;
+    font-size: 18px;
+}
+#sidebar ul {
+    background-color:rgb(253, 239, 115);
+    border: 1px solid rgb(14, 13, 13);
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar li {
+    border-bottom: 1px solid black;
+    padding: 8px 0px;
+}
+#sidebar li:last-child {
+    border-bottom: 0px;
+}
+#sidebar a {
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+}
+#main {
+    grid-area: content;
+    margin-block: 20px;
+    margin: 30px ;
+    color:rgb(255, 255, 255);
+    border: solid black;
+}
+#main h1 {
+    background-color: rgb(15, 15, 15);
+    margin: 8px auto;
+}
+#main h3 {
+    margin: 8px auto;
+}
+#main h5 {
+    margin: 8px auto;
+    color:crimson
+}
+
+    
+    
+
+
