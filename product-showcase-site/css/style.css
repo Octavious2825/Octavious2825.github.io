@@ -45,3 +45,13 @@ body {
     color: black;
     font-size: larger;
 }
+#navbar-3{
+    text-align: center;
+    color: rgb(203, 4, 34);
+    font-size: larger;
+    padding: 40px;
+}
+#navbar-3 a {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
