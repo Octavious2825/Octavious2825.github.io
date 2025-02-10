@@ -7,68 +7,78 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
-.card-container{
-    display:flex;
-    margin: 40px auto;
-    justify-content: center;
-    gap: 20px;
-    align-items:baseline;
-    
-}
 .card-style-3{
+    margin: 16px;
     width: 350px;
-    border: 15px solid #fdb21d;
-    border-radius: 10px;
-    padding: 10px 5px;
-    box-shadow: -4px 4px 12px rgb(37, 37, 35);
-    background-color: #ffc70f;
+    border: 15px solid gold;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
 }
 .card-style-3 img {
-    width: 300px;
+    width: 100%;
     justify-content: center;
     margin: 1px;
-    border: 5px solid rgba(194, 164, 44, 0.927);
-    box-shadow: -4px 4px 12px rgb(143, 117, 11) ;
+    border: 5px solid goldenrod;
     background: linear-gradient(-50deg,  #ba9e12,  #f8e132,  #cc8b2a );
 }
-.pokemon-header {
+.card-style-3 .pokemon-header {
     justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     
 }
-.name {
-    margin-bottom: 2px;
+.card-style-3 .pokemon-header h2 {
+    margin: 0px;
 }
-.health {
-    margin-right: 6px;
+.card-style-3 .pokemon-header .health {
+    font-size: 18px;
 }
-.details {
-    font-size: small;
+.card-style-3 .details {
+    margin-top: 4px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
     text-align: center;
     border:#b5990f transparent;
-    background-color: #df8a0c94;
-    background: linear-gradient(to right, #c38529b8, #f3d40b, #9d6b21b6);
+    background: linear-gradient(to right, goldenrod, gold, goldenrod);
 }
-.attack {
+.card-style-3 .attack {
+    flex: 1;
     display: flex;
     align-items: center;
-    gap: 26px;
-    margin: 20px auto;
+    justify-content: space-between;
+    padding: 16px 0px;
+    margin: 8px 0px;
     border-bottom: 3px solid black;
+}
+.card-style-3 .description {
+    font-size: 14px;
+    margin: 0px 4px;
 }
 .bold {
     font-weight: bold;
+    font-size: 18px;
     text-align: center;
 }
 .data {
-    display: flex;
-    text-align: center;
-    font-size: x-small;
+    padding: 2px 8px;
+    font-size: 11px;
     font-weight: bold;
-    border: 2px solid #a78e0f ;
+    border: 2px solid goldenrod ;
 }
 .power{
     font-weight: bold;
-    font-size: x-large;
+    font-size: 24px;
+}
+#pokemon-card-1, #pokemon-card-2 {
+    background: linear-gradient(-25deg, lightgreen, forestgreen, #90ee90 )
+}
+#pokemon-card-3 {
+    background: linear-gradient(-25deg, orange, orangered, orange);
+}
+#pokemon-card-4 {
+    background: linear-gradient(-25deg, aqua, skyblue, aqua);
 }
