@@ -1,0 +1,29 @@
+#hero {
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    background-size: cover;
+    height: 70vh;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px;
+}
+#hero .hero-content {
+    color: rgb(255, 57, 57);
+    text-align: center;
+    padding-top: 250px;
+}
+#hero h1 {
+    font-size: 55px;
+    margin-bottom: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#hero a {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    background-color: rgb(249, 249, 249);
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    padding: 25px;
+    margin-top: 36px;
+    margin-right: 25px;
+}
