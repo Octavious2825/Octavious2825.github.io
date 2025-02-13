@@ -26,4 +26,9 @@
     padding: 25px;
     margin-top: 36px;
     margin-right: 25px;
+    transition: background-color 0.5s, color 1s,;
+}
+#hero a:hover {
+    background-color: transparent;
+    color: rgb(234, 18, 18);
 }
