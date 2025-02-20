@@ -440,9 +440,7 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */
 @media screen and (max-width: 1000px ) and (min-width: 800px) {
-    body {
-        background: red;
-    }
+    
     #grid-layout {
         display: grid;
         grid-template-columns: 1fr fr 1fr;
@@ -453,70 +451,63 @@ body {
             "card-1  card-2  card-3"
             "aside   blog    blog"
             "footer  footer  footer"
-            "bottom  bottom  bottom";
+            "bottom  bottom  bottom"
+        ;
     }
-    #header {
-        grid-area: header;
+    #header h1 {
+        font-size: 48px;
     }
     #nav {
-        grid-area: navbar;
-    }
-    #banner-container {
-        grid-area: banner;
-    }
-    #card-1 {
-        grid-area: card-1;
-    }
-    
-    #card-2 {
-        grid-area: card-2;
-    }
-    
-    #card-3 {
-        grid-area: card-3;
-    }
-    #main {
-        grid-area: blog;
-    }
-    
-    #footer {
-        grid-area: footer;
-    }
-    
-    #bottom {
-        grid-area: bottom;
-    }
-    #grid-layout h1{
-        font-size: 65px;
+        flex-wrap: wrap;
     }
     #nav a {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        flex: 150px;
+        flex: 190px;
+        border-bottom: 2px solid #777;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #grid-layout h1{
-        font-size: 30px;
-    }
     #grid-layout {
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
-            "header" 
-            "nav"
+            "header"
+            "navbar"
             "banner"
-            "card-1"
-            "card-2"
+            "card-1"  
+            "card-2"  
             "card-3"
-            ""
-        ;
+            "aside"   
+            "blog"
+            "footer"
+            "bottom";
     }
-    .banner-container {
-        display: flex;
+    #shield-image, form {
+        display: none;
+    }
+    #header {
         flex-direction: column;
-
+        align-items: center;
     }
-    
+    #header h1 {
+        font-size: 36px;
+    }
+    #nav {
+        flex-wrap: wrap;
+    }
+    #nav a {
+        flex: 150px;
+        border-bottom: 2px solid #777;
+    }
+    #banner-container,
+#card-1,
+#card-2,
+#card-3,
+#aside,
+#main {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+
+}
 }
