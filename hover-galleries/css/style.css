@@ -40,16 +40,11 @@ body {
         box-shadow 0.5s,
         transform 0.5s
     ;
-}
-.single-column {
-    min-width: 800px;
-    max-width: 8000px;
-    margin: 0px auto;
-    background-color: #1b1a1a;
+
 }
 #card-con2 {
     color: #7e7e7e;
-    padding: 50px;
+    padding: 0px;
 }
 .card-container {
     display: flex;
@@ -59,9 +54,9 @@ body {
     flex: 1;
     border: 7px solid  #7c5233;
     box-shadow: 4px 4px 4px #232323;
-    padding: 50px;
+    padding: 10px;
     text-align: center;
-    margin: 36px;
+    margin: 20px;
 }
 .card2 h3 {
     font-size: 36px;
@@ -85,4 +80,50 @@ body {
     transform: translateY(0px);
     background-color: #7c5233;
     color: aliceblue;
+}
+#card-con3 {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+.card3 {
+    width: 350px;
+    border: 2px solid palegoldenrod;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px rgb(151, 147, 99);
+    background: linear-gradient(-50deg, #f50707, #fdae11, #ede2e2);
+}
+.card3 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card3 h2 {
+    font-size: 35px;
+    margin-top: 12px;
+}
+.card3 p {
+    font-size: 10px;
+}
+.card3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position:10px ;
+    width: 100%;
+    text-align: center;
+    border: 3px solid rgb(6, 6, 6);
+    transition: background-color 0.5s, color 0.5s;
+}
+.card3 a:hover {
+    background-color: transparent;
+    color: black;
+    
 }
