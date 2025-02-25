@@ -1,0 +1,57 @@
+@import url("https://use.typekit.net/qoo4erz.css");
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "alegreya-sans", sans-serif;
+}
+#navbar {
+    font-family: cortado, sans-serif;
+    background-color: #e21d49;
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    border-bottom: 2px solid black;
+}
+#navbar #logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: auto;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    border-bottom: 0px;
+    color: #f8be59;
+}
+.dd-c {
+    position: relative;
+}
+.dd-m {
+    position: absolute;
+    background-color: #273e5a;
+    width: 33%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-16px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 1s
+    ;
+}
+.dd-c:hover .dd-m {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(opx);
+}
+#navbar .dd-m a:hover {
+    color: #f8be59;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #e21d49;
+}
