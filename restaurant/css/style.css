@@ -16,11 +16,11 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 10px;
-    border-bottom: 2px solid black;
+    padding: 11px;
+    font-size: 20px;
 }
 #navbar #logo {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin-right: auto;
     padding-top: 13px;
@@ -54,4 +54,146 @@ body {
     font-weight: bold;
     font-size: 25px;
     background-color: #e21d49;
+}
+#hero {
+    background-image: url("../images/ramen\ 5.jpg");
+    background-size: cover;
+    height: 80vh;
+    background-position: center center;
+}
+#hero .hero-content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 250px;
+}
+#hero h1 {
+    font-size: 55px;
+    margin-bottom: 36px;
+    font-family: cortado, sans-serif;
+}
+#hero a {
+    font-size: 14px;
+    font-family: "alegreya-sans", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: #273e5a;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px;
+    margin-top: 36px;
+    margin-right: 25px;
+    border-radius: 30px;
+}
+ #hero a:hover {
+    transition: background-color 0.5s, color 1s;
+    background-color: #e21d49;
+    color: #f8be59;
+}
+.content {
+    display: flex;
+    margin-right: 60px;
+    padding: 50px;
+    justify-content: center;
+    
+    
+}
+.content h1 {
+    font-size: 60px;
+    font-family: cortado, sans-serif;
+}
+.content ul {
+    font-size: 20px;
+    
+}#card {
+    margin-left: auto;
+    background-color: #fffeff;
+    border: 2px solid #f8be59;
+    padding-right: 400px;
+    margin-left: 300px;
+    border-radius: 30px;
+}
+#card h4 {
+    font-size: 25px;
+    font-family: "alegreya-sans", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 8px;
+}
+#card a {
+    font-size: 25px;
+    font-family: "alegreya-sans", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+    color: #e21d49;
+}
+.light-container {
+    background-color: #848484;
+    padding: 8px 0px ;
+    
+}
+#navbar-btm {
+    background-color: rgb(233, 233, 236);
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    margin: 4px;
+}
+#navbar-btm a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 36px;
+}
+#menu-special {
+    font-size: 30px;
+    font-family: cortado, sans-serif;
+    color: white;
+    margin: 10px;
+}
+#menu-special h2 {
+    color: #e21d49;
+}
+.content2 {
+    display: flex;
+    justify-content: space-between;
+}
+.content2 img {
+    margin: 9px;
+}
+.description {
+    color: white;
+    margin: auto;
+    font-family: "alegreya-sans", sans-serif;
+}
+.description h4 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.description p {
+    font-size: 18px;
+    
+}
+#btn a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "alegreya-sans", sans-serif;
+    border: 3px solid #fffeff;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 8px;
+}
+#btn a:hover {
+    transition: background-color 0.5s, color 1s;
+    background-color: #e21d49;
+}
+.dark-container {
+    background-color: #e21d49;
+    padding: 5px;
 }
