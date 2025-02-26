@@ -6,6 +6,11 @@ body {
     margin: 0px;
     font-family: "alegreya-sans", sans-serif;
 }
+#header {
+    position: sticky;
+    top: 0px;
+}
+
 #navbar {
     font-family: cortado, sans-serif;
     background-color: #e21d49;
@@ -96,8 +101,6 @@ body {
     margin-right: 60px;
     padding: 50px;
     justify-content: center;
-    
-    
 }
 .content h1 {
     font-size: 60px;
@@ -194,6 +197,44 @@ body {
     background-color: #e21d49;
 }
 .dark-container {
-    background-color: #e21d49;
+    background-color: hsl(347, 77%, 50%);
     padding: 5px;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section {
+    background-color: #273e5a;
+    color: #eae8e8;
+    padding: 48px;
+}
+#card-section h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family:  cortado, sans-serif;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card2 {
+    flex: 1;
+    border: 6px solid  #f8be59;
+    background-color: #e21d49;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card2 h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+.card2 p {
+    font-size: 24px;
+    margin: 24px 0px opx;
+    color: white;
+    font-family: "alegreya-sans", sans-serif;
+    font-style: italic;
 }
