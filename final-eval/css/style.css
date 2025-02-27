@@ -1,0 +1,87 @@
+@import url("https://use.typekit.net/jdz1efp.css");
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "octin-college", sans-serif;
+    background: linear-gradient(to bottom, #56a0d3, #A71930);
+    
+}
+.title {
+    text-align: center;
+}
+.title h1 {
+    font-size: 80px;
+}
+.title h3 {
+    font-size: 30px;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+#card img{
+    padding: 0px;
+    box-shadow: 4px 4px 4px ;
+    margin: 30px;
+    height: 400px;
+}
+#card h2, h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#container h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+.btm {
+    text-align: center;
+}
+.btm h2 {
+    font-size: 40px;
+}
+#btn {
+    text-align: center;
+}
+#btn a {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    padding: 25px;
+    margin-top: 36px;
+    margin-right: 25px;
+}
+#btn a:hover {
+    background-color: rgb(255, 56, 73);
+    box-shadow: 4px 4px 4px #0004;
+    transform: translateY(-4px);
+    border-color: rgb(247, 207, 76);
+    
+}
+#btn a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s
+    ;
+}
+@media screen and (max-width: 768px) {
+  
+    .title {
+        background-color: red;
+        font-size: 70px;
+    }
+    #containter {
+        font-size: 50px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+}
