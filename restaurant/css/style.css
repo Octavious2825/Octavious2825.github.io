@@ -144,11 +144,18 @@ body {
     justify-content: center;
     padding: 14px;
     margin: 4px;
+    position: sticky;
+    top: 0px
+    
 }
 #navbar-btm a {
     text-decoration: none;
     color: black;
     padding: 12px 36px;
+    font-family: "alegreya-sans", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
 }
 #menu-special {
     font-size: 30px;
@@ -230,6 +237,7 @@ body {
 .card2 h3 {
     font-size: 36px;
     margin: 0px;
+
 }
 .card2 p {
     font-size: 24px;
@@ -237,4 +245,57 @@ body {
     color: white;
     font-family: "alegreya-sans", sans-serif;
     font-style: italic;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#card-section2 {
+    background-color: #7e7d7e;
+    color: #fefefe;
+    padding: 48px;
+}
+.card-container2 {
+    display: flex;
+    justify-content: space-between;
+}
+.card3 {
+    flex: 2;
+    background-color: #e21d49;
+    border: 6px solid  #eae8e8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.384);
+    padding: 30px;
+    text-align: center;
+    margin: 36px;
+}
+.card3 h3 {
+    font-size: 36px;
+    margin: 0px;
+    font-family: cortado, sans-serif ;
+}
+.card3 p {
+    font-size: 24px;
+    margin: 24px 0px opx;
+    font-family: "alegreya-sans", sans-serif;
+    font-style: italic;
+}
+.card3 a {
+    text-decoration: none;
+    color: #eae8e8;
+    font-size: 30px;
+    font-family: "alegreya-sans", sans-serif ;
+    font-style: italic;
+    font-weight: bold;
+}
+.title  {
+    display: flex;
+    margin-top: auto;
+}
+.title h1 {
+    font-size: 40px;
+    font-family: cortado, sans-serif;
+    color: white;
+    margin: 10px;
 }
