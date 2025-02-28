@@ -393,7 +393,6 @@ body {
 }
 @media screen and (max-width: 800px) and (min-width: 340px) {
     body {
-        background: #ff0037;
     }
     #navbar {
         display: grid;
