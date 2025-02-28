@@ -391,7 +391,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-width: 350px) {
     body {
         background: #ff0037;
     }
@@ -399,6 +399,16 @@ body {
         display: grid;
         justify-content: center;
     }
-
-  
-}
+    .dd-m {
+        width: 40%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #card {
+        padding-right: none;
+        margin: 0px auto;
+        padding-left:
+    }
