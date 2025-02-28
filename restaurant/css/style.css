@@ -392,8 +392,6 @@ body {
     justify-content: space-between;
 }
 @media screen and (max-width: 800px) and (min-width: 340px) {
-    body {
-    }
     #navbar {
         display: grid;
         justify-content: center;
@@ -409,7 +407,6 @@ body {
     #card {
         padding-right: none;
         margin: 0px auto;
-        padding-left:
     }
     .card-container {
         display:inline-block;
@@ -423,8 +420,8 @@ body {
         display: grid;
         justify-content: center;
     }
-    #card-container2 {
-        display:
+    .card-container2 {
+        
     }
 }
 
