@@ -391,13 +391,16 @@ body {
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 800px) and (min-width: 340px) {
+@media screen and (max-width: 500px) and (min-width: 340px) {
     #navbar {
         display: grid;
         justify-content: center;
     }
     .dd-m {
         width: 40%;
+    }
+    #hero h1 {
+        font-size: 20px;
     }
     .content{
         display: flex;
@@ -423,6 +426,11 @@ body {
     .card-container2 {
         
     }
+    #navbar-btm {
+        display: block;
+        block-size: auto;
+    }
+    
 }
 
 @media screen and (min-width: 340px) {
